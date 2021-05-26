@@ -1,0 +1,184 @@
+.custom_nav{
+    font-size: small;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom_nav ul.dropdown-menu {
+    font-size: small;
+}
+
+.custom_divider{
+    height: 3.7px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(33,245,61,1) 25%, rgba(253,29,29,1) 52%, rgba(0,224,255,1) 75%, rgba(252,176,69,1) 98%);
+}
+
+.main_banner{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url('../img/zetong-li-BYtKUxe0ue8-unsplash.jpg');
+    background-size: cover;
+    color: white;
+}
+
+                /* Feature Section  */
+
+section.features {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
+.feature-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.feature-holder h3 {
+    font-size: 1.2em;
+}
+
+.feature-holder p {
+    font-size: 14px;
+}
+
+                /* Online Courses Section CSS */
+section.online-courses, .classroom-training, .reviews-slider, .page-content{
+     padding-top: 35px;
+     padding-bottom: 35px;
+    }
+    
+.online-course-text-widget, .classroom-training-text-widget, .review-text-widget{
+        text-align: center;
+    }
+    
+.online-course-text-widget h2, .classroom-training-text-widget h2, .review-text-widget h2{
+        font-size: 1.3em;
+    }
+    
+.online-course-text-widget p, .classroom-training-text-widget p, .review-text-widget p{
+        font-size: 14px;
+    }
+                /* Online Courses Section CSS */
+
+
+
+
+                /* Online Courses card CSS */
+.card.online-course-card, .review-text-widget {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.online-course-card .card-title {
+    font-size: 1.3em;
+    line-height: 25px;
+}
+
+.online-course-card .card-text{
+    font-size: 14px;
+}
+                /* Online Courses card CSS */
+
+.classroom-training, .page-content{
+    background-color: whitesmoke;
+}
+
+.reviews-slider {
+    background-color: #ececec;
+}
+
+.sign-up-form-sidebar .card-title {
+    font-size: 1.2em;
+}
+.sign-up-form-sidebar .card-text {
+    font-size: 14px;
+}
+
+.course-list-item{
+    font-size: small;
+    padding-top: 20px;
+    color: black;
+}
+
+
+                /* Review Slider CSS */
+#review_slider_content li .card{
+    text-align: center;
+}
+
+#review_slider_content li img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+#review_slider_content li .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#review_slider_content li .star{
+    color: orange;
+    font-size: 14px;
+}
+
+#review_slider_content li .card .card-text{
+    font-size: 14px;
+}
+
+                /* Main Footer CSS */
+
+section.main-footer {
+    background-color: #292929;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+aside.footer-widgets {
+    margin-bottom: 25px;
+}
+
+aside.footer-widgets h5 {
+    font-size: 16px;
+}
+
+aside.footer-widgets ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside.footer-widgets ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #adadad;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+address p {
+    font-size: 14px;
+}
+
+                /* CopyRight Section CSS */
+section.copy {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+section.copy p{
+    margin: 0px;
+}
+
+                /* Contact Page Map CSS */
+section.google-map {
+    padding-top: 56px;
+}

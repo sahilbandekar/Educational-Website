@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- jquery min  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark custom_nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">MySite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#RegisterModal"
+                        class="btn btn-sm btn-success">Register Online</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Home Banner -->
+    <div class="main_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="main_banner_content">
+                        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum autem maiores
+                            recusandae sit veniam deleniti eum totam consectetur. Ducimus iste exercitationem ad
+                            deleniti iusto non veritatis eius modi architecto!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-none d-sm-block">
+                <div class="col-lg-6 col-md-6">
+                    <div class="input-group mb-3">
+                        <input type="search" class="form-control form-control-sm" placeholder="Search for..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-success" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none">
+                <div class="col-lg-12 col-md-12">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#RegisterModal" class="btn btn-sm w-100 btn-success">Register Online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home Banner -->
+
+    <!-- Features List Holder -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                class="bi bi-clock-history" viewBox="0 0 16 16">
+                                <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                                <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                                <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium esse sit amet
+                            consectetur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                class="bi bi-clock-history" viewBox="0 0 16 16">
+                                <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                                <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                                <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium esse sit amet
+                            consectetur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                class="bi bi-clock-history" viewBox="0 0 16 16">
+                                <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                                <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                                <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium esse sit amet
+                            consectetur</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <h2>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                class="bi bi-clock-history" viewBox="0 0 16 16">
+                                <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z" />
+                                <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
+                                <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                        </h2>
+                        <h3>Feature Title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusantium esse sit amet
+                            consectetur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features List Holder -->
+
+    <!-- Online Courses -->
+    <section class="online-courses">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="online-course-text-widget">
+                        <h2>Online Courses</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis earum excepturi doloribus
+                            ullam nesciunt perspiciatis pariatur. Delectus, perspiciatis. A omnis vero velit, porro hic
+                            molestias animi? Repellendus asperiores rem nam!</p>
+                        <a href="#" class="btn btn-sm btn-warning">View All Courses</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                                nostrum, culpa molestiae quos</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Online Courses -->
+
+    <!-- Classroom Training -->
+    <section class="classroom-training">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="classroom-training-text-widget">
+                        <h2>Online Courses</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis earum excepturi doloribus
+                            ullam nesciunt perspiciatis pariatur. Delectus, perspiciatis. A omnis vero velit, porro hic
+                            molestias animi? Repellendus asperiores rem nam!</p>
+                        <a href="#" class="btn btn-sm btn-warning">View All Courses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card text-white bg-primary sign-up-form-sidebar">
+                        <!-- light grey: text-dark bg-light   blue: text-white bg-primary -->
+                        <div class="card-body">
+                            <h3 class="card-title">Sign-Up to get more details</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error</p>
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Your Name"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control form-control-sm" placeholder="Your Mail ID"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control form-control-sm" placeholder="Phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Course Name"
+                                        required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="submit" class="btn btn-sm w-100 btn-warning"
+                                        value="Register Online Now">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="list-group">
+                        <div class="list-group-item active">Classroom Training Courses | Career Based | Short Terms</div>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="list-group-item course-list-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <img src="https://source.unsplash.com/random/600x314" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-8">
+                                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis porro explicabo
+                                        modi a ducimus exercitationem sit nulla nostrum rerum nobis doloremque, impedit,
+                                        eum tempore? Asperiores architecto praesentium quam. Beatae!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Classroom Training -->
+
+    <!-- Reviews Slider -->
+    <section class="reviews-slider">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="review-text-widget">
+                        <h2>What do people say about us?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis earum excepturi
+                            doloribus ullam nesciunt perspiciatis pariatur. Delectus, perspiciatis. A omnis vero
+                            velit, porro hic molestias animi? Repellendus asperiores rem nam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="review-slider-holder">
+                        <ul id="review_slider_content">
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/user.png" alt="">
+                                        <h6 class="card-title">User Name</h6>
+                                        <h5 class="star">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                            </svg>
+                                        </h5>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Illum laborum aliquam pariatur</p>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews Slider -->
+
+    <!-- Footer -->
+    <section class="main-footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widgets">
+                        <h5>Follow Us</h5>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Tumblur</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widgets">
+                        <h5>Site Map</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widgets">
+                        <h5>Recent Updates</h5>
+                        <ul>
+                            <li><a href="#">Update One</a></li>
+                            <li><a href="#">Update Two</a></li>
+                            <li><a href="#">Update Three</a></li>
+                            <li><a href="#">Update Four</a></li>
+                            <li><a href="#">Update Five</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widgets">
+                        <address>
+                            <h2>COMPANY</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsa optio. Vel
+                                consequuntur rem tempora mollitia enim veniam Lorem ipsum dolor sit.</p>
+                            <p><strong>Email: </strong><a href="mailto:sahilbandekar21@gmail.com">someone@gmail.com</a>
+                            </p>
+                            <p><strong>Phone: </strong><a href="tel:+914355768576">+91 435 576 8576</a></p>
+                        </address>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <!-- CopyRight -->
+    <section class="copy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2020. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CopyRight -->
+
+    <!-- Register Online Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="RegisterModal" tabindex="-1" aria-labelledby="RegisterModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="RegisterModal">Register Online</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="custom_divider"></div>
+                <div class="modal-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima vero, ipsam quisquam </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Your Mail ID"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Course Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-sm w-100 btn-success" value="Register Online Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Online Modal -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#review_slider_content").lightSlider({
+                auto: true,
+                loop: true,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 1,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        })
+    </script>
+</body>
+
+</html>
